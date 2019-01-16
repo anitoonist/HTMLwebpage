@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Resume</title>
+  <meta charset="utf-8"/>
+  <meta name="author" content="Erica Letwiniuk"/>
+  <meta name="description" element="Resume"/>
+  <meta name="generator" content="Random Form"/>
+    <body>
+      
+      <header>
+        <h1>Erica's Resume</h1>
+      </header>
+      <p><i><span>Default Address</span></i><br>
+          <i><small>email@gmail.com</small></i><br>
+      </p> 
+      <nav>
+        <a href="#Work Experience">Work Experience</a>
+        <a href="#Skills">skills</a>     
+      </nav>
+      <section>
+       <h2 id="Work Experience">Work Experience</h2>
+      <h3>Sales Rep</h3>
+      <p>
+        <b><a href="https://www.telus.com/en/">Telus</a></b>&#45;Burnaby, BC<br>
+        <i><small>July 2016 to present</small></i><br>
+        Responsibilities&#58;<br>
+      </p>
+        
+      <ul>
+        <li>problem-solving</li>
+        <li>cross-selling</li>
+        <li>multi-tasking</li>
+        <li><abbr title="Learning Sessions">LC</abbr> sessions</li>
+        </ul>
+           
+      <h3>Sales Associate</h3>
+      <p><b><a href="https://www.virginmobile.ca/en/home/index.html?province=BC&geoResult=BC">Virgin Mobile</a></b>&#45;Edmonton, AB<br>
+        <i><small>July 2015 to present</small></i><br>
+        Responsbilities &#58;<br>
+      </p>
+      
+      <ul>
+        <li>greeting clients</li>
+        <li>house keeping duties</li>
+        <li>training</li>
+        </ul>
+      </section>
+      
+      <article>
+      <h2 id="Skills">Skills</h2>
+        <ol>
+        <li>Time management&#40;10 years&#41;</li>
+        <li>Teamwork &#40;10&#43;years&#41;</li>
+        <li>Organization &#40;9 years&#41;</li>
+        </ol>
+      </article>
+    
+      <aside>
+      <h2>Definitions</h2>
+      <dl>
+        <dt><i>cross-selling</i></dt>
+        <dd> adding one or more products or services with your current sale</dd>
+        <dt><i>learning care sessions</i></dt>
+        <dd>one-on-one mobility tutorials</dd>
+      </dl>
+      </aside>
+      
+      <hr />
+      <section>
+      <h2>Some Classes I am Currently Enrolled in</h2>
+      <table>
+        <caption>Three Classes Currently Enrolled in</caption>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Course name</td>
+            <td>Course number</td>
+            <td>Course credits</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>Business Communications</td>
+            <td>COMM 1100</td>
+            <td>4.0</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Applied Mathematics</td>
+            <td>COMP 1113</td>
+            <td>4.0</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Programming Methods</td>
+            <td>COMP 1510</td>
+            <td>7.0</td>
+         </tr>
+        </tbody>
+       </table>
+      </section>
+      <hr / >
+        <form action="./submit.html">
+      <fieldset>
+        <legend>user profile</legend>
+              login name&#58;<br>
+        <input type="text" id="name" name="name" placeholder="email or username"
+               autofocus="autofocus" pattern="[A-Za-z]{8,20}" required="required"/><br>
+              password&#58;<br>
+        <input type="password" id="pwd" name="pwd" placeholder="password"
+               pattern="[A-Za-z0-9]{10,20}" required="required"/><br>
+             age:<br>
+        <input min="18" max="65"
+               type="number" id="number" name="number" placeholder="age"/><br>
+        <input type="reset" id="reset" name="reset" value="reset" />
+        <input type="submit" id="submit" name="submit" value="submit"/>
+       </fieldset>
+      <fieldset>
+        
+        <legend>Attach file</legend>
+        Attach image of favorite game
+        <input type="file" value="attach file"/><br>
+        Example below:<br>
+        <figure>
+        <input type="image"  src="https://dummyimage.com/600x400/000/fff"/>
+        </figure>
+      
+      </fieldset>
+      </form>
+      
+      
+      <footer>
+        <hr />
+      Copyright &copy; 2018. Property of Erica Letwiniuk Set C.
+      </footer>
+      
+    
+    
+    </body>
+  
+  
+  
+  </head>
+
+
+    </html>
